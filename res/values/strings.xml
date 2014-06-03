@@ -7,9 +7,9 @@
     <string name="title">FreezeMe JKU</string>
     <string name="username">GROUP 6</string>
     <string name="password">Password</string>
-    <string name="scan">Scan QR code</string>
-    <string name="scanNfc">Read NFC tag</string>
-    <string name="readNfc">Read NFC tag</string>
+    <string name="scan">Scan QR Code</string>
+    <string name="scanNfc">Read NFC Tag</string>
+    <string name="readNfc">Read NFC Tag</string>
     <string name="app_name">FreezeMe JKU</string>
     <string name="title_scanned_tag">Tag</string>
     <string name="bt_add">Put in Freezer</string>
