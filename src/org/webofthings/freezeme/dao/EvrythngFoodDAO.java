@@ -42,9 +42,9 @@ public class EvrythngFoodDAO extends AbstractFoodDAO {
 		ThngService thngService = apiManager.thngService();
 		try {
             Thng item = thngService.thngReader(thngId).execute();
-            setExpiration(item.getProperties().get("ExpiryDate"));
-            setImageUrl(item.getProperties().get("ImageURL"));
-            setInfoUrl(item.getProperties().get("ProductURL"));
+            setExpiration(item.getProperties().get("expirydate"));
+            setImageUrl(item.getProperties().get("imageurl"));
+            setInfoUrl(item.getProperties().get("producturl"));
             setName(item.getName());
 		} catch (EvrythngException e) {
             Log.e("FREEZEME", "An error occurred while loading the thng: " + e);
