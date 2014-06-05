@@ -57,8 +57,8 @@ public class FoodVisualizer extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.visualizer);
 
-		apiKey = getString(R.string.apiKey); //"@res/string/apiKey";
-		freezeCollectionId = getString(R.string.freezerCollectionId); //"@string/freezerCollectionId";
+		apiKey = getString(R.string.apiKey);
+		freezeCollectionId = getString(R.string.freezerCollectionId);
 
 		// Load URL that was just read
 		uriInTag = this.getIntent().getData().toString();
