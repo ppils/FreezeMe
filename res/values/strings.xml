@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-   <string name="apiKey">kv4dxAmHuOLitGw1qp9kQm1NHQyexsvzxjEs10pAhQVxHgxIL94hypcIRjKswtxKqxilOFJaZxelHlyE</string>
-    <string name="freezerCollectionId">UUF8BmffPBpaPfYrrgsh4gmr</string>
+   <string name="apiKey">kv4dxAmHuOLitGw1qp9kQm1NHQyexsvzxjEs10pAhQVxHgxIL94hypcIRjKswtxKqxilOFJaZxelHlyE</string> <!--Change this to your Evrythng API Key-->
+    <string name="freezerCollectionId">UUF8BmffPBpaPfYrrgsh4gmr</string> <!--Change this to your Evrythng Collection ID. Collections can only be managed through the API!-->
     
     <string name="title">FreezeMe JKU</string>
     <string name="username">GROUP 6</string>

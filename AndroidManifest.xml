@@ -24,7 +24,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-       <!--  This activity can be used to explicitly trigger an NFC read  -->    
+
+        <!--  This activity can be used to explicitly trigger an internal NFC read  -->
        <activity
             android:name=".NfcExplicitReader" >
             <intent-filter>
@@ -33,7 +34,7 @@
             </intent-filter>
         </activity>
         
-        <!--  Tag triggered activity -->        
+        <!--  Tag triggered activity - Either QR or NFC -->
         <activity android:name=".FoodVisualizer" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
